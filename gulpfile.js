@@ -1,5 +1,5 @@
-var gulp = require('gulp');
+var gulp;
 
-gulp.task('default', function() {
-console.log('Test');
-});
+gulp = require('gulp');
+require('gulp-simple-load-tasks')(gulp);
+gulp.loadTasks(__dirname + '/tasks');
