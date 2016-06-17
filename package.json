@@ -7,7 +7,10 @@
     "gulp": "^3.9.1"
   },
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-htmlmin": "^2.0.0",
+    "gulp-pug": "^3.0.3",
+    "gulp-simple-load-tasks": "^1.0.2"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
